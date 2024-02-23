@@ -1,0 +1,53 @@
+.suggestion{
+    margin-top: 1em;
+    margin-right: 10px;
+}
+.sugestion_title{
+    color: gray;
+    font-weight: bolder;
+    margin: 10px ;
+}
+.username{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.username_left{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1em;
+}
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+.relation{
+    color: gray;
+    font-size: 12px;
+}
+.follow{
+    button{
+        font-weight: bolder;
+        color: #138;
+        background: 0;
+        border: 0;
+        
+    }
+    button:hover{
+        font-weight: bolder;
+        color: #fff;
+        cursor: pointer;
+        background: 0;
+        border: 0;
+        
+    }
+}
+.name{
+    font-weight: 500;
+    font-size: 12px;
+
+}
